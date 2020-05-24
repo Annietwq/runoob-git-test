@@ -1,0 +1,13 @@
+mkdir runoob-git-test
+cd runoob-git-test/
+echo "#菜鸟教程Git测试">>REAME.md
+ls
+REACME
+git init
+git add README.md
+git commit -m "添加README.md 文件"
+[master (root-commit) 0205aab] 添加README.md 文件
+1 file changed, 1 insertion(+)
+create mode 100644 README.md
+git remote add origin git@github.com:Annietwq/runoob-git-test.git
+git push -u origin master
